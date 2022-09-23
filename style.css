@@ -42,10 +42,6 @@ html {
 
 }
 
-/* .right-column {
-    padding: 1em;
-} */
-
 .container {
     background-color: rgb(178, 205, 222);
     height: 500px;
@@ -71,17 +67,6 @@ html {
 
 }
 
-/* .titolo-main {
-
-} */
-
-/* .titolo-main {
-    display: flex;
-    justify-content: center;
-    
-    flex-direction: column;
-} */
-
 .blue-button-main {
     text-decoration: none;
     color: white;
@@ -98,10 +83,9 @@ html {
 .container-2 {
     width: 100%;
     height: auto;
-    /* padding: 3em 5em; */
     padding-top: 7em;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 15em;
+    padding-right: 15em;
     height: 500px;
 }
 
@@ -118,7 +102,6 @@ html {
     border-color: rgb(200, 200, 200);
     border-style: solid;
     border-width: 1px;
-    /* padding: 2em; */
     width: 33%;
     height: auto;
 }
@@ -133,12 +116,26 @@ html {
     text-align: center;
 }
 
-/* .titolo-card {
-    padding-top: 5rem; 
-} */
-
 .remove-2 {
     list-style-type: none;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.card-hor {
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.blue-button-card {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 89, 255);
+    padding: .4em .7em;
+}
+
+.partner {
+    width: 100%;
+    padding-top: 3em;
 }
