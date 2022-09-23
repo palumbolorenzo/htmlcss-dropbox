@@ -114,8 +114,9 @@ html {
 .card {
     border-color: rgb(154, 154, 154);
     border-style: solid;
-    padding: 2rem;
+    padding: 2em;
     width: 33%;
+    height: 500px;
 }
 
 .prima-sezione-card {
