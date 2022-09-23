@@ -52,12 +52,14 @@ html {
     width: 100%;
     padding: 6em 8em;
     display: flex;
-    align-items: center;
-    /* position: relative; */
+    align-items: flex-start;
+    position: relative;
 }
 
 .blocco-1 {
-    padding: 1em;
+    padding-top: 1em;
+    padding-left: 3rem;
+    width: 40%;
 }
 
 .paragrafo-main, .blue-button-main, .frase main {
@@ -65,6 +67,7 @@ html {
 }
 
 .blocco-2 {
+    padding-right: 3rem;
 
 }
 
@@ -84,46 +87,48 @@ html {
     color: white;
     background-color: rgb(0, 89, 255);
     padding: .4em .7em;
+    display: block;
 }
 
 .first-main-pic {
-    width: 100%;
-    /* position: absolute;
-    z-index: 5;
-    top: 200px;
-    left: 200px; */
-    
-
+    width: 60%;
+    position: absolute;
 }
 
 .container-2 {
     width: 100%;
     height: auto;
-    padding-left: 3em;
+    /* padding: 3em 5em; */
+    padding-top: 7em;
+    padding-left: 10em;
+    padding-right: 10em;
     height: 500px;
 }
 
 .blocco-3 {
-    text-align: center;
+    
 }
 
 .blocco-4 {
     display: flex;
+    justify-content: space-around;
 }
 
 .card {
-    border-color: rgb(154, 154, 154);
+    border-color: rgb(200, 200, 200);
     border-style: solid;
-    padding: 2em;
+    border-width: 1px;
+    /* padding: 2em; */
     width: 33%;
-    height: 500px;
+    height: auto;
 }
 
 .prima-sezione-card {
     border-style: solid;
     border-color: white;
-    border-bottom: rgb(154, 154, 154);
+    border-bottom: rgb(200, 200, 200);
     border-style: solid;
+    border-width: 1px;
     padding-bottom: 1em;
     text-align: center;
 }
@@ -131,3 +136,9 @@ html {
 /* .titolo-card {
     padding-top: 5rem; 
 } */
+
+.remove-2 {
+    list-style-type: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
