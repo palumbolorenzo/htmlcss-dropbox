@@ -31,7 +31,7 @@ html {
     list-style-type: none;
     display: flex;
     align-items: center;
-    padding: .5em;
+    padding: 1em;
 }
 
 .blue-button-header {
@@ -53,15 +53,19 @@ html {
     padding: 6em 8em;
     display: flex;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .blocco-1 {
     padding: 1em;
 }
 
-.titolo-main, .paragrafo-main, .blue-button-main, .frase main {
+.paragrafo-main, .blue-button-main, .frase main {
     padding: 1em;
+}
+
+.blocco-2 {
+
 }
 
 /* .titolo-main {
@@ -88,6 +92,41 @@ html {
     z-index: 5;
     top: 200px;
     left: 200px; */
-    display: flex;
+    
 
 }
+
+.container-2 {
+    width: 100%;
+    height: auto;
+    padding-left: 3em;
+    height: 500px;
+}
+
+.blocco-3 {
+    text-align: center;
+}
+
+.blocco-4 {
+    display: flex;
+}
+
+.card {
+    border-color: rgb(154, 154, 154);
+    border-style: solid;
+    padding: 2rem;
+    width: 33%;
+}
+
+.prima-sezione-card {
+    border-style: solid;
+    border-color: white;
+    border-bottom: rgb(154, 154, 154);
+    border-style: solid;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+/* .titolo-card {
+    padding-top: 5rem; 
+} */
