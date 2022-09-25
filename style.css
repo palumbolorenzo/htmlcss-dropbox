@@ -163,10 +163,10 @@ html {
 
 .container-3 {
     width: 100%;
-    /* padding-left: 15em;
-    padding-right: 15em; */
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 25em;
+    padding-bottom: 5em;
     display: flex;
     justify-content: flex-start;
 }
@@ -190,9 +190,11 @@ html {
     border-width: 1px;
 }
 
-/* .container-4 {
+.container-4 {
     width: 100%;
-} */
+    padding-left: 15em;
+    padding-right: 15em;
+}
 
 .titolo {
     padding-bottom: 1em;
@@ -216,8 +218,16 @@ html {
     padding: 1.5em;
 }
 
+.container-5 {
+    width: 100%;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+
 .titolo-500 {
     padding-bottom: 1em;
+    /* padding-left: 15em; */
 }
 
 .link {
@@ -226,10 +236,11 @@ html {
 }
 
 .container-full {
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .column-left-top, .column-left-bottom, .column-center, .column-right-top, .column-right-bottom {
@@ -288,4 +299,77 @@ html {
     background-color: rgb(255, 228, 53);
     padding: 8em 4em;
     width: 100%;
+}
+
+.blue-section {
+    background-color: rgb(178, 205, 222);
+    width: 100%;
+    padding-left: 15em;
+    padding-right: 15em;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.blue-section-title {
+    padding-right: 3em;
+}
+
+.white-button-2 {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: .4em .7em;
+    /* border-style: solid;
+    border-width: 1px; */
+    white-space: nowrap;
+}
+
+.faq {
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.faq-title {
+    padding-bottom: 1.5em;
+    border-color: white;
+    border-bottom: rgb(200, 200, 200);
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 1em;
+}
+
+.faq-quote {
+    border-color: white;
+    border-bottom: rgb(200, 200, 200);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.final {
+    background-color: black;
+    color: white;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.remove-3 {
+    list-style-type: none;
+}
+
+.list-title {
+    padding-bottom: 1em;
+}
+
+.final-link {
+    color: white;
+    text-decoration: none;
 }
