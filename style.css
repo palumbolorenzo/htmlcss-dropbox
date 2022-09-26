@@ -42,6 +42,11 @@ html {
 
 }
 
+.main-title {
+    display: flex;
+    flex-basis: 100%;
+}
+
 .container {
     background-color: rgb(178, 205, 222);
     padding: 5rem;
@@ -79,7 +84,18 @@ html {
     background-color: rgb(0, 89, 255);
     padding: .4em .7em;
     display: block;
+    text-align: center;
 }
+
+.blue-button-main-contact {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 89, 255);
+    padding: .4em .7em;
+    display: block;
+    text-align: center;
+}
+
 
 .first-main-pic {
     width: 60%;
@@ -238,36 +254,50 @@ html {
 .container-full {
     /* margin-left: 0;
     margin-right: 0; */
+    width: 100%;
     display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
 }
 
-.column-left-top, .column-left-bottom, .column-center, .column-right-top, .column-right-bottom {
+.column-left-top, .column-left-bottom, .column-right-top, .column-right-bottom {
+    display: flex;
+    width: 33.3%;
+}
+
+.center {
+    width: 33.3%;
+}
+
+.left, .right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
     display: flex;
 }
 
 .designit {
     background-color: rgb(134, 219, 113);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
 .arizona {
     background-color: rgb(67, 0, 0);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
 .florida {
     background-color: rgb(0, 140, 255);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
 .topps {
     background-color: red;
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
@@ -279,25 +309,25 @@ html {
 
 .wbr {
     background-color: rgb(175, 36, 36);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
 .hc {
     background-color: rgb(178, 205, 222);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
 .lp {
     background-color: rgb(33, 33, 101);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
 .cc {
     background-color: rgb(255, 228, 53);
-    padding: 8em 4em;
+    /* padding: 8em 4em; */
     width: 100%;
 }
 
