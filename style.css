@@ -45,6 +45,8 @@ html {
 .main-title {
     display: flex;
     flex-basis: 100%;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
 }
 
 .container {
@@ -70,9 +72,9 @@ html {
     width: 40%;
 }
 
-.paragrafo-main, .blue-button-main, .frase main {
-    padding: 1em;
-}
+/* .paragrafo-main, .blue-button-main, .frase main {
+    
+} */
 
 .blocco-2 {
     padding-right: 3rem;
@@ -85,8 +87,13 @@ html {
     color: white;
     background-color: rgb(0, 89, 255);
     padding: .4em .7em;
+    margin: 1em 0;
     display: block;
     text-align: center;
+}
+
+.frase-main {
+    margin-bottom: 2em;
 }
 
 .blue-button-main-contact {
@@ -94,14 +101,36 @@ html {
     color: white;
     background-color: rgb(0, 89, 255);
     padding: .4em .7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
     display: block;
     text-align: center;
 }
 
+.fa-check {
+    color: rgb(0, 89, 255);
+}
 
 .first-main-pic {
     width: 100%;
     position: absolute;
+}
+
+.finder {
+    margin-bottom: 1.5em;
+}
+
+.pulsante-destro, .pulsante-sinistro {
+    margin-bottom: 1.5em;
+}
+
+.pulsante-sinistro {
+    color: rgb(0, 89, 255);
+    
+}
+
+.pulsante-destro {
+    color: rgb(163, 163, 163);
 }
 
 .container-2 {
@@ -128,8 +157,7 @@ html {
     border-width: 1px;
     width: 33%;
     height: auto;
-    padding-top: .7em;
-    
+    padding: .7em;
 }
 
 .card-left {
@@ -138,10 +166,6 @@ html {
 
 .card-middle {
     margin-right: 1.5em;
-}
-
-.card-right {
-    
 }
 
 .prima-sezione-card {
@@ -157,7 +181,7 @@ html {
 .remove-2 {
     list-style-type: none;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 .buy-now {
@@ -169,7 +193,7 @@ html {
     border-style: solid;
     border-width: 1px;
     margin-top: 1.5em;
-    padding-top: .7em;
+    padding: .7em;
 }
 
 .blue-button-card {
@@ -197,6 +221,14 @@ html {
 
 .testo-container-3 {
     margin-bottom: 3em;
+}
+
+.titolo-partner {
+    padding-bottom: 1em;
+}
+
+.testo-partner {
+    padding-bottom: 1.5em;
 }
 
 .white-button {
@@ -285,7 +317,7 @@ html {
     background-color: rgb(134, 219, 113);
     width: 50%;
     height: 100%;
-    padding: 2.5em;
+    padding: 2.3em;
     border: solid;
     border-width: 10px;
     border-color: rgb(179, 240, 163);
@@ -323,10 +355,16 @@ html {
 
 .designit-2 {
     padding: 1em;
+    color: black;
 }
 
-.designit-text {
+.designit-text-top {
     padding-top: 1.5em;
+}
+
+.designit-text-bottom {
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
 }
 
 .wbr {
@@ -355,6 +393,10 @@ html {
     width: 50%;
     height: 100%;
     padding: 2.5em;
+}
+
+.cc path {
+    fill: white;
 }
 
 .blue-section {
